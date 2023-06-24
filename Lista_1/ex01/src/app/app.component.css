@@ -1,0 +1,24 @@
+.gestor-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  background-color: honeydew;
+  border: 5px double darkolivegreen;
+  flex-wrap: wrap;
+}
+.analistas-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  background-color: honeydew;
+  border: 5px double darkolivegreen;
+  flex-wrap: wrap;
+}
+
+
