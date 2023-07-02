@@ -7,11 +7,11 @@ import { CadastroComponent } from './views/cadastro/cadastro.component';
 const routes: Routes =   [
   { path: '', component: HomeComponent},
   { path: 'login', component: LoginComponent},
-  { path: '/cadastro', component: CadastroComponent}
+  { path: 'cadastro', component: CadastroComponent}
 ]
 
 
-@NgModule({ 
+@NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
