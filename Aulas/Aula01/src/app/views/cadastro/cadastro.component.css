@@ -1,0 +1,20 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.form input{
+  width: 400px;
+  height: 35px;
+  font: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #EEE;
+  border-radius: 10px;
+}
+.form button{
+  background: crimson;
+  color: #fff
+}
+
