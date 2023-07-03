@@ -1,0 +1,41 @@
+.gestor-wrapper{
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 10px;
+  border: 5px double darkolivegreen;
+  align-items: center;
+  background-color: honeydew;
+  width: 50%;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+.analistas-wrapper{
+  padding: 10px;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 10px;
+  align-items: center;
+  background-color: honeydew;
+  border: 5px double darkolivegreen;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.gestor, .subordinados{
+  margin: 30px;
+  padding: 10px;
+}
+p{
+  margin-left: 30px;
+}
+span{
+  margin-left: 10px;
+}
+.sub{
+  margin: auto;
+}
+#nome_subordinado{
+  margin: 5px;
+}
