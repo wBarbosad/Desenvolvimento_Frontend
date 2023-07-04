@@ -1,0 +1,14 @@
+ul{
+  display: flex;
+
+}
+ul a{
+  text-decoration: none;
+  margin: 5px;
+  color: crimson;
+  cursor: pointer;
+  font-size: 30px;
+}
+ul a:hover{
+  font-size: 31px;
+}

@@ -1,0 +1,11 @@
+.animais{
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  justify-content: center;
+  margin: 5px;
+}
+.animais p{
+  margin: 5px;
+}
