@@ -1,0 +1,11 @@
+ul{
+  margin: 15px;
+  align-items: center;
+  font-size: 20px;
+}
+a{
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+
+<div class="lista" *ngFor="let anime of animes">
+  <div class="anime">
+      <p>Nome do anime: {{anime.nome}}</p>
+      <p>Identificação: {{anime._id}}</p>
+      <p>Ano de lançamento: {{anime.ano}}</p>
+      <p>Temporadas: {{ anime.quantidadeDeTemporada }}</p>
+    <!-- <img src="{{anime.img}}" alt="{{anime.nome}}"> !-->
+  </div>
+  <div><img src="{{ anime.img }}" alt=""></div>
+</div>
