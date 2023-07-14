@@ -1,0 +1,12 @@
+.menu a{
+  margin-left: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.menu a:hover{
+  font-size: 32px;
+  text-shadow: 0.1rem 0.1em #333
+}

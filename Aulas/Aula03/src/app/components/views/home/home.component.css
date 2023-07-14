@@ -1,0 +1,12 @@
+.animais{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 5px;
+  width: 50%;
+  justify-content: center;
+}
+ 
+.animais p{
+  margin: 5px;
+}
