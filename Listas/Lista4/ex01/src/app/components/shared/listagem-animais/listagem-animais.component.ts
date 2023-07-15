@@ -1,4 +1,5 @@
-import { AnimalService } from './../../../service/animal.service';
+import { Animal } from 'src/app/models/animal';
+import { AnimalService } from '../../../services/animal.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,14 +7,17 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './listagem-animais.component.html',
   styleUrls: ['./listagem-animais.component.css']
 })
-export class ListagemAnimaisComponent {
+export class ListagemAnimaisComponent implements OnInit{
+  public animal: Animal[] = Array<Animal>()
 
- /*implements OnInit private animal: Animal[] = Array<Animal>();
+  constructor(private animalService: AnimalService){
 
-  ngOnInit(): void {
-   animal = AnimalService
   }
 
-*/
+  ngOnInit(): void {
+    this.animalService.buscarAnimais().subscribe((response) => {
+      this.animal = response;
+    })
+  }
 
 }

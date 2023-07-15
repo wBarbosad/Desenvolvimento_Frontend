@@ -1,1 +1,9 @@
 <p>listagem-animais works!</p>
+<div *ngFor="let animais of animal">
+  <div>
+  <p>{{ animais._id }}</p>
+  <p>{{ animais.nome }}</p>
+  <p>{{ animais.raca }}</p>
+  <p>{{ animais.peso }}</p>
+  </div>
+</div>

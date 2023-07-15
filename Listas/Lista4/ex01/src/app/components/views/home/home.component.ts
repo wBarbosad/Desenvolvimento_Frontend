@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Animal } from 'src/app/models/animal';
 
 @Component({
   selector: 'app-home',

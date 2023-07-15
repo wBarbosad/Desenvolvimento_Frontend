@@ -8,6 +8,7 @@ import { LoginComponent } from './components/views/login/login.component';
 import { CadastroComponent } from './components/views/cadastro/cadastro.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ListagemAnimaisComponent } from './components/shared/listagem-animais/listagem-animais.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,10 +18,12 @@ import { ListagemAnimaisComponent } from './components/shared/listagem-animais/l
     CadastroComponent,
     NavbarComponent,
     ListagemAnimaisComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
