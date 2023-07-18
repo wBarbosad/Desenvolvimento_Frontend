@@ -1,0 +1,27 @@
+.apresentacao{
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.apresentacao img{
+  border: 5px solid #DCDCDC;
+  border-left-color: #00CC99;
+  border-radius: 350px;
+  align-items: center;
+  box-shadow: 20px -16px rgb(2, 77, 77);
+
+  margin: 10px;
+}
+.apresentacao h2{
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 40px;
+  transition: 1s;
+  text-shadow: 0.2em 0.5em 0.1em #600,
+      -0.3em 0.1em 0.1em #060,
+      0.4em -0.3em 0.1em #006
+}
+.apresentacao h2:hover{
+  transform: rotate(90deg);
+}

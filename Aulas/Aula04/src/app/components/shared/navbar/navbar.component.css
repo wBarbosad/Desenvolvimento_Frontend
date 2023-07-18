@@ -1,0 +1,21 @@
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
+.menu a{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 300px;
+  background-color: #7FFFD4;
+  color: white;
+  height: 40px;
+  font-size: 30px;
+  border-top-left-radius: 50px;
+  border-start-end-radius: 50px;
+}
+.menu a:hover{
+  background-color: rgb(40, 20, 30);
+}
