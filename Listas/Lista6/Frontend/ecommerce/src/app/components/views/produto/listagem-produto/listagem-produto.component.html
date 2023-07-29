@@ -1,0 +1,12 @@
+<div class="main">
+
+  <div class = "listagem-produto" *ngFor="let produtos of produto">
+    <p>Produto: {{ produtos.nome }} </p>
+    <p>Descrição: {{ produtos.descricao }}</p>
+    <img src="{{ produtos.imagem }}" alt="{{ produtos.descricao }}">
+    <p> Preço: {{ produtos.valor }}</p>
+    <p>Categoria: {{ produtos.categoria }}</p>
+  </div>
+
+
+</div>
