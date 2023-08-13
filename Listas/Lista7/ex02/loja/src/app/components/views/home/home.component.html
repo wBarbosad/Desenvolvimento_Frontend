@@ -1,0 +1,17 @@
+<p>home works!</p>
+<div *ngFor="let produto of produtos">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{ produto.nome }}</mat-card-title>
+        <mat-card-subtitle>{{ produto.preco }}</mat-card-subtitle>
+        <mat-card-subtitle>{{ produto.estoque }}</mat-card-subtitle>
+        <img mat-card-xl-image src="{{ produto.imagem }}">
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      {{ produto.descricao }}
+    </mat-card-content>
+  </mat-card>
+</div>
+

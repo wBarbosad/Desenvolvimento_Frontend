@@ -1,0 +1,14 @@
+.menu{
+  display: flex;
+  padding: 0;
+  margin: 0px;
+  justify-content: center;
+  background-color: black;
+  border: black;
+}
+.menu a{
+  margin-right: 200px;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: black;
+}

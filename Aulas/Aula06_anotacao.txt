@@ -1,0 +1,114 @@
+Anotações aula 06: Data Binding Angular
+
+
+Comando de sem spec: ng new nome --skip-tests
+
+
+** Como interagirmos com os dois arquivos: TS e HTML (Text interporlation)
+
+** Binding = Vínculo do TS com HTML; {{ }}
+
+Ctrol + k + c -> Gera comentário automaticamente;
+
+
+** Property Binding [] (Vínculo de propriedades):
+
+<img [src] = Estou dizendo que o angular esta gerenciando a imagem;
+
+39:00
+
+@Input() = Entrada de dados
+
+@Input() nome [texto]: tipo; Possibilito a entrada de dados numa component; Através da sua chamada;
+
+<app-property-binding [texto]="nome" > exemplo
+
+
+
+** Event binding: 
+
+<button (click) = ""></button>
+
+( ) => Simbologia de event binding 
+
+
+Entradas quando digitar 01:07
+ 
+$event o $ para passar eventos que acontecem agora
+
+"event" é o parÂmetro; (keyup) é um evento de "digitar"
+
+
+
+*** Two way data binding [()] -> Simbologia
+
+Interage com propriedades através de eventos;
+
+
+
+
+
+*** Flexbox: 02:43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

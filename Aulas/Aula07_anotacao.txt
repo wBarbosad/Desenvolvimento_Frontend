@@ -1,0 +1,38 @@
+Angular Material = Bootstrap do angular;
+
+Uso o angular material de acordo com a versão do meu Angular no package.json -> @angular/core
+
+Toolbar = navbar
+
+"Instalar/importar" o angular material: ng add @angular/material ou npm install @angular/material
+
+Importar no app.module o MatToolbarModule
+
+
+*** Parte 2; ***
+
+@keyframes = animacao;
+
+sintaxe 
+
+@keyframes <nome> {
+	
+	from ou 0% { 
+	
+	}
+	to ou 100%{ 
+	
+	}
+}
+
+
+animatiom: animatios tempo "linear" "infinito"
+
+
+filter: hue-rotate( ... ) muda cores; 
+
+
+object-fit: cover // Não vai aumentar a imagem;
+
+
+backdrop-filter: blur(15px) opaco

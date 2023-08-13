@@ -1,0 +1,125 @@
+# Processo de desenvolvimento de software 
+
+Pesquisada: #1
+
+	O processo de desenvolvimento de software é tudo aquilo que envolve, esforço de criar, desenvolver, projetar, programar e dar suporte ao software. Podemos dividí-lo
+	nas seguintes etapas: 
+
+
+	1. Requisitos do cliente (Stakeholders - Sócios - Parte interessada);
+
+		Nesta etapa o cliente/sócios/parte interessada deve dizer o que deve ser feito, analisar qual objetivo daquele software ou daquela entrega
+		e analisar expectativas que o cliente deseja alcançar com o software
+
+	2. Especificações técnicas (Início da sprint Sprint scrum)
+		
+		Iniciado após 100% do entendimento que precisamos fazer;
+
+		Nesta etapa é feito a análise dos requisitos de negócio para que seja feito o levantamento dos requisitos técnicos
+		para desenvolver o software. Os requisitos de negócio devem estar totalmente desenvolvidas para que seja feito o levantamento técnico.
+O desenvolvimento só inicia após o entendimento do time sobre o que deve ser feito.
+
+	Requisito de negócio: 
+
+	EX: "Usuário só deve acessar o sistema quando passar pelo login"
+
+	Requisito ténico:
+
+	 - Criar tela de login;
+	 - Criar endpoint de login;
+	 - Criar metodo de geração de token
+
+
+	3. Processo (Durante a sprint)
+		Nesta etapa inicia-se o processo de codificação, onde os desenvolvedores vão pegar os requisitos técnicos e de negócios/produto e implementar via código
+
+	4. Teste (durante a sprint)
+		Nesta etapa inicia-se os testes das entregas realizadas pelos desenvolvedores para garantir o que foi desenvolvido está de acordo com o que foi solicitado. 
+Nesta etapa é o momento de encontrar bugs, falhas, vulnerabilidade, debito técnico. 
+
+	QA (Quality Assegurance) = Encontrar bugs no sistema/
+	Figma = Layout 
+	UI/UX (User interface - User experience)
+
+
+	5. Review (Final da sprint)
+		
+		Após o teste, é feito uma reunião (review) para apresentar para o cliente/stakeholder o que foi desenvolvido, se estiver de acordo com o que foi pedido segue para a próxima etapa, caso não
+esteja inicia-se o processo de correções. 
+
+	Reunião de review e retrospectiva c/ a scrum
+
+	Objetivo (Review): Analisar e apresentas as entregas
+	Objetivo (Retrospectiva): Verificar o que foi bom na [ultima sprint, o que foi ruim, o que devemos repetir, o que devemos para de repetir e o que podemos 
+e como melhorar.
+
+	6. Implantação/publicação (subir para produção)
+		Nesta etapa, após os testes e review, inicia-se a etapa de publicação do software nos servidores de produção/desenvolvimento, para que os clientes comecem
+a usar o software
+
+
+
+============================================
+
+	Criou um md chamado: scrum.md 
+			
+	# Scrum Framework (Framework de método ágil)
+		
+		Scrum team - (Squad/Time) formado por:
+		
+		PO (Product Owner)
+		Desenvolvedores
+		Scrum Master
+
+	
+	
+
+	### Reuniões do scrum (sprint) - Após o entendimento do projeto pelo PO.
+
+	Planning (Reuniao de planejamento) Sprint duração de máx. 2 semanas mín. 1 semana;
+		
+		Objetivo: Definir as entregas durante o sprint;
+
+	Daily/Dailies(Reuniões diárias)
+		Objetivo: Dizer o que foi feito, o que está fazendo e se tem algum impedimento para realizar a tarefa.
+	
+	
+=============================
+PARTE 2: GIT
+
+GIT > Project > New Projetc > Escrutura de sprint scrum 
+
+ Dá p/ alterar cores e nomes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================
+
+Consultoria para desenvolver software

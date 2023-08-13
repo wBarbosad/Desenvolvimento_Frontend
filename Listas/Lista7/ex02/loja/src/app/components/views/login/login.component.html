@@ -1,0 +1,31 @@
+<div class="principal">
+  <div class="exibicao">
+      <img src="https://down-lum-br.img.susercontent.com/f69c7d32878bccd5a89cd09c6298518c_tn" alt="">
+  </div>
+
+  <div class="exibicao2">
+      <div class="formulario">
+
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+          <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+              Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="emailFormControl.hasError('required')">
+              Email is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+
+          <input type="password" name="Senha" placeholder="Senha">
+          <section>
+            <div class="example-button-row">
+              <button mat-button color="primary">Entrar</button>
+              <button mat-button color="accent">Esqueci a senha</button>
+            </div>
+          </section>
+
+        </div>
+  </div>
+</div>
